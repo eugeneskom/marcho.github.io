@@ -1,11 +1,11 @@
 html,
-body{
+body {
   height: 100%;
 }
 
 
 
-body{
+body {
   color: $default;
   font-size: 16px;
   line-height: 26px;
@@ -13,20 +13,20 @@ body{
   display: flex;
   flex-direction: column;
 }
-.main{
+
+.main {
   flex-grow: 1;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-a{
+a {
   color: $default;
   font-size: 16px;
   line-height: 26px;
-  @extend %quicksand-500
-  ;
+  @extend %quicksand-500;
 }
